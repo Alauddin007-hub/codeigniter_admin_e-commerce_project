@@ -1,0 +1,100 @@
+CRITICAL - 2023-12-05 10:29:28 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:29:30 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:29:38 --> Invalid file: "customer/customer_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/customer_details.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/customer_details', [], true)
+ 3 APPPATH\Controllers\Customer.php(15): view('customer/customer_details')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->customer_details()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:42:10 --> Invalid file: "/customer/customer_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/customer/customer_details.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/customer/customer_details', [], true)
+ 3 APPPATH\Controllers\Customer.php(15): view('/customer/customer_details')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->customer_details()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:42:34 --> Invalid file: "/customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('/customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:46:19 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:46:34 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:46:45 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:49:24 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
+CRITICAL - 2023-12-05 10:50:11 --> Invalid file: "customer/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/index', [], true)
+ 3 APPPATH\Controllers\Customer.php(11): view('customer/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\setup7.4.33\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\ci_admin_project\\public\\index.php')
