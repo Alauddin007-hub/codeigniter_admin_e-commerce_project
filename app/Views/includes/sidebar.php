@@ -46,7 +46,7 @@
                 </li>
                 <li class="menu-label">UI Elements</li>
                 <li>
-                  <a href="javascript:;" class="has-arrow">
+                  <a href="/category" class="has-arrow">
                       <div class="parent-icon"><span class="material-symbols-outlined">widgets</span>
                       </div>
                       <div class="menu-title">Add Category</div>
@@ -61,7 +61,7 @@
                   <ul>
                     <li> <a href="/product"><span class="material-symbols-outlined">arrow_right</span>Product List</a>
                     </li>
-                    <li> <a href="/entry"><span class="material-symbols-outlined">arrow_right</span>Add New Product</a>
+                    <li> <a href="product/entry"><span class="material-symbols-outlined">arrow_right</span>Add New Product</a>
                     </li>
                   </ul>
                 </li>

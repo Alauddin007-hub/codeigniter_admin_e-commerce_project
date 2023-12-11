@@ -76,11 +76,11 @@
                         <h5 class="mb-0">Enter Brand</h5>
                     </div>
                     <div class="card-body p-4">
-                        <form class="row g-3 needs-validation" novalidate>
+                        <form class="row g-3 needs-validation" method="post" action="/brand/store" enctype="multipart/form-data" novalidate>
 
                             <div class="col-md-12">
                                 <label for="bsValidation3" class="form-label">Brand Name</label>
-                                <input type="text" class="form-control" id="bsValidation3" placeholder="Phone" required>
+                                <input type="text" class="form-control" id="bsValidation3" placeholder="Enter Brand Name" name="bname" required>
                                 <div class="invalid-feedback">
                                     Please choose a username.
                                 </div>
@@ -88,7 +88,7 @@
 
                             <div class="col-md-12">
                                 <label for="bsValidation13" class="form-label">Brand Description</label>
-                                <textarea class="form-control" id="bsValidation13" placeholder="Address ..." rows="3" required></textarea>
+                                <textarea class="form-control" id="bsValidation13" placeholder="Description ..." rows="3" name="description" required></textarea>
                                 <div class="invalid-feedback">
                                     Please enter a valid address.
                                 </div>

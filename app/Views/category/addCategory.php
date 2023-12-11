@@ -75,11 +75,11 @@
                         <h5 class="mb-0">Enter Category</h5>
                     </div>
                     <div class="card-body p-4">
-                        <form class="row g-3 needs-validation" action="category/store" enctype="multipart/form-data" method="post" novalidate>
+                        <form class="row g-3 needs-validation" action="/category/store" enctype="multipart/form-data" method="post" novalidate>
 
                             <div class="col-md-12">
                                 <label for="bsValidation3" class="form-label">Category Name</label>
-                                <input type="text" class="form-control" id="bsValidation3" placeholder="Phone" required>
+                                <input type="text" class="form-control" id="bsValidation3" placeholder="Enter category name" name="cname" required>
                                 <div class="invalid-feedback">
                                     Please choose a username.
                                 </div>
@@ -87,7 +87,7 @@
 
                             <div class="col-md-12">
                                 <label for="bsValidation13" class="form-label">Category Description</label>
-                                <textarea class="form-control" id="bsValidation13" placeholder="Address ..." rows="3" required></textarea>
+                                <textarea class="form-control" id="bsValidation13" placeholder="description ..." name="description" rows="3" required></textarea>
                                 <div class="invalid-feedback">
                                     Please enter a valid address.
                                 </div>

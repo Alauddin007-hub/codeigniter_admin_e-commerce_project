@@ -68,6 +68,12 @@
 				<!--end breadcrumb-->
 
                 <h6 class="mb-0 text-uppercase">Brand List</h6>
+                <?php if (session()->getFlashdata('msg')) : ?>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <?php echo session()->getFlashdata('msg'); ?>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        <?php endif; ?>
 				<hr>
 				<div class="card">
 					<div class="card-body">

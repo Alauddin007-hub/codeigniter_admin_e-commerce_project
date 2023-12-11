@@ -69,6 +69,12 @@
 
         <h6 class="mb-0 text-uppercase">Category List</h6>
 				<hr>
+				<?php if (session()->getFlashdata('msg')) : ?>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <?php echo session()->getFlashdata('msg'); ?>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        <?php endif; ?>
 				<div class="card">
 					<div class="card-body">
 						<div class="table-responsive">
