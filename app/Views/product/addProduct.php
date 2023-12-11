@@ -67,7 +67,7 @@
 				<!--end breadcrumb-->
 
   
-        <div class="row">
+        <!-- <div class="row">
 					<div class="col-xl-6 mx-auto">
 						<div class="card">
 							<div class="card-header px-4 py-3 bg-transparent">
@@ -194,7 +194,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!--end row-->
 
 				<div class="row">
