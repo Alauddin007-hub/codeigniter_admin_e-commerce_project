@@ -46,10 +46,17 @@
                 </li>
                 <li class="menu-label">UI Elements</li>
                 <li>
-                  <a href="/category" class="has-arrow">
+                  <a href="/category/create" class="has-arrow">
                       <div class="parent-icon"><span class="material-symbols-outlined">widgets</span>
                       </div>
                       <div class="menu-title">Add Category</div>
+                    </a>
+                </li>
+                <li>
+                  <a class="has-arrow" href="brand/create">
+                      <div class="parent-icon"><span class="material-symbols-outlined">redeem</span>
+                      </div>
+                      <div class="menu-title">Add Brand</div>
                     </a>
                 </li>
                 <li>

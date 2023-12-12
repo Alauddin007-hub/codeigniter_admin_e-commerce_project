@@ -19,7 +19,7 @@ $routes->post('brand/store', 'BrandController::store');
 // Product 
 $routes->get('product', 'Products::index');
 $routes->get('product/entry', 'Products::entry');
-// $routes->get('entry', 'Products::entry');
+$routes->post('product/store', 'Products::store');
 // $routes->get('entry', 'Products::entry');
 
 // Customer

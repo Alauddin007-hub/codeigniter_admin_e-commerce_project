@@ -15,10 +15,12 @@ class CategoryController extends BaseController
     public function index()
     {
         $data['items'] = $this->category->findAll();
+        $data['title'] = "Category List";
         return view('category/categoryList',$data);
     }
     public function create(){
-        return view('category/addCategory');
+        $data['title'] = "Add Category";
+        return view('category/addCategory',$data);
     }
     public function store(){
         $data = [

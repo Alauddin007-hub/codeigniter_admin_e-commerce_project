@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roksyn - Bootstrap 5 Admin Template</title>
+    <title><?php echo $title; ?></title>
 
     <!--plugins-->
     <link href="<?= site_url('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') ?>" rel="stylesheet">
@@ -43,13 +43,13 @@
     <main class="page-content">
         <!--breadcrumb-->
         <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-            <div class="breadcrumb-title pe-3">Forms</div>
+            <div class="breadcrumb-title pe-3">Category</div>
             <div class="ps-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0 p-0">
                         <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                         </li>
-                        <li class="breadcrumb-item active" aria-current="page">Validations</li>
+                        <li class="breadcrumb-item active" aria-current="page">Add Category</li>
                     </ol>
                 </nav>
             </div>

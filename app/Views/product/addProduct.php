@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roksyn - Bootstrap 5 Admin Template</title>
+    <title><?= $title; ?></title>
 
     <!--plugins-->
     <link href="<?= site_url('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css')?>" rel="stylesheet">
@@ -41,13 +41,13 @@
      <main class="page-content">
         <!--breadcrumb-->
 				<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-					<div class="breadcrumb-title pe-3">Forms</div>
+					<div class="breadcrumb-title pe-3">Product</div>
 					<div class="ps-3">
 						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb mb-0 p-0">
 								<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">Validations</li>
+								<li class="breadcrumb-item active" aria-current="page">Product Entry</li>
 							</ol>
 						</nav>
 					</div>
@@ -67,114 +67,99 @@
 				<!--end breadcrumb-->
 
   
-        <!-- <div class="row">
+
+ 	<!--  	 	 	product_feature		 -->
+
+        <div class="row">
 					<div class="col-xl-6 mx-auto">
 						<div class="card">
 							<div class="card-header px-4 py-3 bg-transparent">
-								<h5 class="mb-0">Bootstrap Validation</h5>
+								<h5 class="mb-0">Product Entry Form</h5>
 							</div>
 							<div class="card-body p-4">
-								<form class="row g-3 needs-validation" novalidate>
-									<div class="col-md-6">
-										<label for="bsValidation1" class="form-label">First Name</label>
-										<input type="text" class="form-control" id="bsValidation1" placeholder="First Name" value="Jhon" required>
-										<div class="valid-feedback">
-											Looks good!
-										  </div>
-									</div>
-									<div class="col-md-6">
-										<label for="bsValidation2" class="form-label">Last Name</label>
-										<input type="text" class="form-control" id="bsValidation2" placeholder="Last Name" value="Deo" required>
+								<form class="row g-3 needs-validation" action="/product/store" enctype="multipart/form-data" method="post" novalidate>
+									<div class="col-md-12">
+										<label for="bsValidation1" class="form-label">Product Title</label>
+										<input type="text" class="form-control" id="bsValidation1" placeholder="Product Title" name="pname" value="" required>
 										<div class="valid-feedback">
 											Looks good!
 										  </div>
 									</div>
 									<div class="col-md-12">
-										<label for="bsValidation3" class="form-label">Phone</label>
-										<input type="text" class="form-control" id="bsValidation3" placeholder="Phone" required>
+										<label for="bsValidation13" class="form-label">Product Short Description</label>
+										<textarea class="form-control" id="bsValidation13" placeholder="Product Short Description ..." name="psd" rows="3" required></textarea>
+										<div class="invalid-feedback">
+											Please enter a valid address.
+										</div>
+									</div>
+									<div class="col-md-12">
+										<label for="bsValidation13" class="form-label">Product Long Description</label>
+										<textarea class="form-control" id="bsValidation13" placeholder="Product Long Description ..." name="pld" rows="3" required></textarea>
+										<div class="invalid-feedback">
+											Please enter a valid address.
+										</div>
+									</div>
+									<div class="col-md-12">
+										<label for="bsValidation2" class="form-label">Product Image</label>
+										<input type="file" class="form-control" id="bsValidation2" placeholder="product image" value="" name="pimg" required>
+										<div class="valid-feedback">
+											Looks good!
+										  </div>
+									</div>
+									<div class="col-md-12">
+										<label for="bsValidation3" class="form-label">Product Price</label>
+										<input type="text" class="form-control" id="bsValidation3" placeholder="product_price" name="pprice" required>
 										<div class="invalid-feedback">
 											Please choose a username.
 										  </div>
 									</div>
 									<div class="col-md-12">
-										<label for="bsValidation4" class="form-label">Email</label>
-										<input type="email" class="form-control" id="bsValidation4" placeholder="Email" required>
+										<label for="bsValidation4" class="form-label">Product Quantity</label>
+										<input type="text" class="form-control" id="bsValidation4" placeholder="product quantity" name="pquantity" required>
 										<div class="invalid-feedback">
 											Please provide a valid email.
 										  </div>
 									</div>
-									<div class="col-md-12">
+									<!-- <div class="col-md-12">
 										<label for="bsValidation5" class="form-label">Password</label>
 										<input type="password" class="form-control" id="bsValidation5" placeholder="Password" required>
 										<div class="invalid-feedback">
 											Please choose a password.
 										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="d-flex align-items-center gap-3">
-											<div class="form-check">
-												<input type="radio" class="form-check-input" id="bsValidation6" name="radio-stacked" required>
-												<label class="form-check-label" for="bsValidation6">Male</label>
-											  </div>
-											  <div class="form-check">
-												<input type="radio" class="form-check-input" id="bsValidation7" name="radio-stacked" required>
-												<label class="form-check-label" for="bsValidation7">Female</label>
-											  </div>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<label for="bsValidation8" class="form-label">DOB</label>
-										<input type="date" class="form-control" id="bsValidation8" required>
-										<div class="invalid-feedback">
-											Please select date.
-										</div>
-									</div>
-									<div class="col-md-12">
-										<label for="bsValidation9" class="form-label">Country</label>
-										<select id="bsValidation9" class="form-select" required>
-											<option selected disabled value>...</option>
-											<option>One</option>
-											<option>Two</option>
-											<option>Three</option>
+									</div> -->
+									
+									<div class="col-md-6">
+										<label for="bsValidation9" class="form-label">Product Category </label>
+										<select id="bsValidation9" class="form-select" name="cat" required>
+											<option selected disabled value>Category...</option>
+											<?php print_r($cats); ?>
+											<?php foreach( $cats as $cat ): ?>
+
+												<option value="<?= $cat['id'] ?>" ><?= $cat['category_name'] ?></option>
+
+											<?php endforeach; ?>
 										</select>
 										<div class="invalid-feedback">
 										   Please select a valid country.
 										</div>
 									</div>
-									
 									<div class="col-md-6">
-										<label for="bsValidation10" class="form-label">City</label>
-										<input type="text" class="form-control" id="bsValidation10" placeholder="City" required>
-										<div class="invalid-feedback">
-											Please provide a valid city.
-										</div>
-									</div>
-									<div class="col-md-4">
-										<label for="bsValidation11" class="form-label">State</label>
-										<select id="bsValidation11" class="form-select" required>
-											<option selected disabled value>Choose...</option>
-											<option>One</option>
-											<option>Two</option>
-											<option>Three</option>
+										<label for="bsValidation11" class="form-label">Product Brand</label>
+										<select id="bsValidation11" class="form-select" name="brand" required>
+											<option selected disabled value>Brand...</option>
+											<?php print_r($brands) ?>
+											<?php foreach( $bans as $ban ): ?>
+
+											<option value="<?= $ban['brand_id'] ?>" ><?= $ban['brand_name'] ?></option>
+
+											<?php endforeach; ?>
+											
 										</select>
 										<div class="invalid-feedback">
 											Please select a valid State.
 										 </div>
 									</div>
-									<div class="col-md-2">
-										<label for="bsValidation12" class="form-label">Zip</label>
-										<input type="text" class="form-control" id="bsValidation12" placeholder="Zip" required>
-										<div class="invalid-feedback">
-											Please enter a valid Zip code.
-										</div>
-									</div>
-									<div class="col-md-12">
-										<label for="bsValidation13" class="form-label">Address</label>
-										<textarea class="form-control" id="bsValidation13" placeholder="Address ..." rows="3" required></textarea>
-										<div class="invalid-feedback">
-											Please enter a valid address.
-										</div>
-									</div>
+									
 									<div class="col-md-12">
 										<div class="form-check">
 											<input class="form-check-input" type="checkbox" id="bsValidation14" required>
@@ -194,10 +179,10 @@
 							</div>
 						</div>
 					</div>
-				</div> -->
-				<!--end row-->
+				</div>
+				<!--end row -->
 
-				<div class="row">
+				<!-- <div class="row">
                     <div class="col-lg-8 mx-auto">
 						<div class="card">
 							<div class="card-header px-4 py-3 bg-transparent">
@@ -240,8 +225,32 @@
 										<div class="col-sm-9">
 											<input type="password" class="form-control" id="input38a" name="confirm_password" placeholder="Confirm Password">
 										</div>
+									</div> -->
+									<!-- <div class="row mb-3">
+									<div class="col-sm-9 col-md-6">
+										<label for="input39" class="col-sm-3 col-form-label">Select Country</label>
+										<div class="col-md-6">
+											<select class="form-select" id="input39" name="country">
+												<option selected disabled value>Choose...</option>
+												<option value="1">One</option>
+												<option value="2">Two</option>
+												<option value="3">Three</option>
+											  </select>
+										</div>
 									</div>
-									<div class="row mb-3">
+									<div class="col-sm-9 col-md-6">
+										<label for="input39" class="col-sm-3 col-form-label">Select Country</label>
+										<div class="col-md-6">
+											<select class="form-select" id="input39" name="country">
+												<option selected disabled value>Choose...</option>
+												<option value="1">One</option>
+												<option value="2">Two</option>
+												<option value="3">Three</option>
+											  </select>
+										</div>
+									</div>
+									</div> -->
+									<!-- <div class="row mb-3">
 										<label for="input39" class="col-sm-3 col-form-label">Select Country</label>
 										<div class="col-sm-9">
 											<select class="form-select" id="input39" name="country">
@@ -252,6 +261,7 @@
 											  </select>
 										</div>
 									</div>
+									
 									<div class="row mb-3">
 										<label for="input40" class="col-sm-3 col-form-label">Address</label>
 										<div class="col-sm-9">
@@ -281,7 +291,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!--end row-->
 
 
