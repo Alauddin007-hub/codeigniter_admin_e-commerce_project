@@ -1,0 +1,244 @@
+CRITICAL - 2023-12-17 03:42:33 --> Invalid file: "products/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('products/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/create', [], true)
+ 3 APPPATH\Controllers\Products.php(64): view('products/create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 03:45:08 --> Invalid file: "products/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('products/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/create', [], true)
+ 3 APPPATH\Controllers\Products.php(64): view('products/create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 03:47:16 --> Invalid file: "products/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('products/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/create', [], true)
+ 3 APPPATH\Controllers\Products.php(64): view('products/create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:08:23 --> Undefined variable: brands
+in APPPATH\Views\product\addProduct.php on line 150.
+ 1 APPPATH\Views\product\addProduct.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: brands', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php', 150, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product/addProduct', [], true)
+ 5 APPPATH\Controllers\Products.php(37): view('product/addProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:08:37 --> Undefined variable: brands
+in APPPATH\Views\product\addProduct.php on line 150.
+ 1 APPPATH\Views\product\addProduct.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: brands', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php', 150, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product/addProduct', [], true)
+ 5 APPPATH\Controllers\Products.php(37): view('product/addProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:10:12 --> Undefined variable: brands
+in APPPATH\Views\product\addProduct.php on line 150.
+ 1 APPPATH\Views\product\addProduct.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: brands', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php', 150, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product/addProduct', [], true)
+ 5 APPPATH\Controllers\Products.php(37): view('product/addProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:10:15 --> Undefined variable: brands
+in APPPATH\Views\product\addProduct.php on line 150.
+ 1 APPPATH\Views\product\addProduct.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: brands', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php', 150, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\product\\addProduct.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product/addProduct', [], true)
+ 5 APPPATH\Controllers\Products.php(37): view('product/addProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:14:40 --> Invalid file: "products/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('products/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/create', [], true)
+ 3 APPPATH\Controllers\Products.php(64): view('products/create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:15:23 --> Invalid file: "product/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product/create', [], true)
+ 3 APPPATH\Controllers\Products.php(64): view('product/create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:15:49 --> Invalid file: "product/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product/create', [], true)
+ 3 APPPATH\Controllers\Products.php(64): view('product/create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 07:17:15 --> The route for "/product/entry" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/product/entry')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Products.php(64): redirect('/product/entry')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+INFO - 2023-12-17 07:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 08:35:13 --> Invalid file: "/properties/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/properties/add.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/add', [], true)
+ 3 APPPATH\Controllers\Products.php(47): view('/properties/add')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+INFO - 2023-12-17 08:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 08:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 08:43:25 --> Call to a member function getName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:44:07 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:47:25 --> Undefined variable: title
+in APPPATH\Views\category\addCategory.php on line 7.
+ 1 APPPATH\Views\category\addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('category/addCategory', [], true)
+ 5 APPPATH\Controllers\CategoryController.php(37): view('category/addCategory')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:48:53 --> Undefined variable: title
+in APPPATH\Views\category\addCategory.php on line 7.
+ 1 APPPATH\Views\category\addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('category/addCategory', [], true)
+ 5 APPPATH\Controllers\CategoryController.php(37): view('category/addCategory')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:49:21 --> Undefined variable: addtitle
+in APPPATH\Views\category\addCategory.php on line 7.
+ 1 APPPATH\Views\category\addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: addtitle', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('category/addCategory', [], true)
+ 5 APPPATH\Controllers\CategoryController.php(37): view('category/addCategory')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:50:15 --> Undefined variable: title
+in APPPATH\Views\category\addCategory.php on line 7.
+ 1 APPPATH\Views\category\addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('category/addCategory', [], true)
+ 5 APPPATH\Controllers\CategoryController.php(37): view('category/addCategory')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:51:05 --> Undefined variable: title
+in APPPATH\Views\category\addCategory.php on line 7.
+ 1 APPPATH\Views\category\addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\app\\Views\\category\\addCategory.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('category/addCategory', [], true)
+ 5 APPPATH\Controllers\CategoryController.php(37): view('category/addCategory')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+INFO - 2023-12-17 08:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 08:59:45 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 08:59:55 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 09:01:19 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 09:01:44 --> Call to a member function getName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+CRITICAL - 2023-12-17 09:02:32 --> Call to a member function getName() on null
+in APPPATH\Controllers\Products.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Products->store()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\codeigniter_admin_e-commerce_project\\public\\index.php')
+INFO - 2023-12-17 09:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 09:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

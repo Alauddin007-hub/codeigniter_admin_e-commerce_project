@@ -132,7 +132,7 @@
 										<label for="bsValidation9" class="form-label">Product Category </label>
 										<select id="bsValidation9" class="form-select" name="cat" required>
 											<option selected disabled value>Category...</option>
-											<?php print_r($cats); ?>
+											<?php //print_r($cats); ?>
 											<?php foreach( $cats as $cat ): ?>
 
 												<option value="<?= $cat['id'] ?>" ><?= $cat['category_name'] ?></option>
@@ -147,7 +147,7 @@
 										<label for="bsValidation11" class="form-label">Product Brand</label>
 										<select id="bsValidation11" class="form-select" name="brand" required>
 											<option selected disabled value>Brand...</option>
-											<?php print_r($brands) ?>
+											<?php //print_r($bans) ?>
 											<?php foreach( $bans as $ban ): ?>
 
 											<option value="<?= $ban['brand_id'] ?>" ><?= $ban['brand_name'] ?></option>

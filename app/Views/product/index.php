@@ -104,7 +104,7 @@
 									<?php $n = 0; foreach($items as $item): ?>
 									<tr>
 										<td><?= $n+1; ?></td>
-										<td><img src="<?php echo base_url('/assets/uploads/'.$item['product_image'])?>" width="50px" height="50px" alt=""></td>
+										<td><img src="<?php echo base_url('/assets/uploads/'.$item['product_image'])?>" width="60px" height="50px" alt=""></td>
 										<td><?= $item['product_title']?></td>
 										<td><?= $item['product_category']?></td>
 										<td><?= $item['product_brand']?></td>

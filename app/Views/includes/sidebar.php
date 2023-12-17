@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li>
-                  <a class="has-arrow" href="brand/create">
+                  <a class="has-arrow" href="/brand/create">
                       <div class="parent-icon"><span class="material-symbols-outlined">redeem</span>
                       </div>
                       <div class="menu-title">Add Brand</div>
@@ -68,7 +68,7 @@
                   <ul>
                     <li> <a href="/product"><span class="material-symbols-outlined">arrow_right</span>Product List</a>
                     </li>
-                    <li> <a href="product/entry"><span class="material-symbols-outlined">arrow_right</span>Add New Product</a>
+                    <li> <a href="/product/entry"><span class="material-symbols-outlined">arrow_right</span>Add New Product</a>
                     </li>
                   </ul>
                 </li>

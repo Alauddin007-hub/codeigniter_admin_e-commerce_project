@@ -34,7 +34,7 @@ class CategoryController extends BaseController
          ];
 
          if(! $this->validate($rules)){
-            return view('category/addCategory');
+            return redirect('category/create');
          } else {
             $this->category->insert($data);
             $session = session();
