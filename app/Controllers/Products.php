@@ -47,7 +47,7 @@ class Products extends BaseController
             return redirect('product/entry');
         } else {
             $img = $this->request->getFile('pimg');
-            $img_name = $img->getName();
+            $img_name = $img->getRandomName();
             $img->move('assets/uploads', $img_name);
 
             $data = [
@@ -58,9 +58,9 @@ class Products extends BaseController
                 'product_quantity' =>$this->request->getVar("pquantity"),
                 'product_category' =>$this->request->getVar("cat"),
                 'product_brand' =>$this->request->getVar("brand"),
-                'photo' => $img_name,
+                'product_image' => $img_name,
             ];
-            // print_r($data);
+            //  print_r($data);
             $this->product->insert($data);
             $session = session();
             $session->setFlashdata('msg', 'Successfully Added');
@@ -105,7 +105,10 @@ class Products extends BaseController
 }
 
     public function edit($id){
-
+        $data = $this->product->find($id);
+        // print_r($data);
+        return view("product/edit",$data);
+        // echo $id;
     }
 
     public function update($id){

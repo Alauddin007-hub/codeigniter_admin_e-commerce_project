@@ -97,6 +97,7 @@
 										<th>published_date</th>
 										<th>product_view</th>
 										<th>publication_status</th>
+										<th>Action</th>
 									</tr>
 									<!-- product_id  product_short_description 	product_long_description product_feature -->
 								</thead>
@@ -114,6 +115,10 @@
 										<td><?= $item['published_date']?></td>
 										<td><?= $item['product_view']?></td>
 										<td><?= $item['publication_status']?></td>
+										<td>
+											<a class="btn btn-secondary" href="<?php //echo base_url('products/edit/' . $product['id']); ?>"><i class="fa fa-fas-edit">Edit</i></a>
+											 <a class="btn btn-danger" href="<?php //echo base_url('products/delete/' . $product['id']); ?>"><i class="fa fa-fas-trash">Delete</i></a>
+										</td>
 									</tr>
 									<?php $n++; endforeach; ?>
 								</tbody>
@@ -130,6 +135,7 @@
 										<th>published_date</th>
 										<th>product_view</th>
 										<th>publication_status</th>
+										<th>Action</th>
 									</tr>
 								</tfoot>
 							</table>

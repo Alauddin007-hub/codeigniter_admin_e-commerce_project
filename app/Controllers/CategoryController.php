@@ -30,7 +30,7 @@ class CategoryController extends BaseController
         // print_r($data);
          $rules = [
             'cname' => 'required|max_length[30]|min_length[3]',
-            'description' => 'required|max_length[150]|min_length[10]',
+            'description' => 'required|max_length[200]|min_length[10]',
          ];
 
          if(! $this->validate($rules)){
@@ -41,6 +41,8 @@ class CategoryController extends BaseController
             $session->setFlashdata('msg','Category Inserted and uploaded Successfully');
             $this->response->redirect('/category');
          }
+
+
 
         // if($data){
         //     $this->category->insert($data);

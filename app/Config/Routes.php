@@ -20,7 +20,9 @@ $routes->post('brand/store', 'BrandController::store');
 $routes->get('product', 'Products::index');
 $routes->get('product/entry', 'Products::entry');
 $routes->post('product/store', 'Products::store');
-// $routes->get('entry', 'Products::entry');
+$routes->get('product/edit/(:num)', 'Products::edit/$1');
+$routes->post('product/update/(:num)', 'Products::update/$1');
+$routes->get('product/delete/(:num)', 'Products::delete/$1');
 
 // Customer
 $routes->get('customer', 'Customer::index');

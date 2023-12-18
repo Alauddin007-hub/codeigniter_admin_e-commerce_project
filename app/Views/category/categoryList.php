@@ -81,6 +81,7 @@
 							<table id="example" class="table table-striped table-bordered" style="width:100%">
 								<thead>
 									<tr>
+										<th>#no</th>
 										<th>Category Name</th>
 										<th>Category Description</th>
 										<th>Publication status</th>

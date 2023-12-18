@@ -134,20 +134,20 @@
             <div class="customer-table">
               <div class="table-responsive white-space-nowrap">
                  <table class="table align-middle">
-                  <thead class="table-light">
-                    <tr>
-                      <th>
-                        <input class="form-check-input" type="checkbox">
-                      </th>
-                      <th>Customers</th>
-                      <th>Email</th>
-                      <th>Orders</th>
-                      <th>Total Spent</th>
-                      <th>Location</th>
-                      <th>Last Seen</th>
-                      <th>Last Order</th>
-                    </tr>
-                   </thead>
+                    <thead class="table-light">
+                        <tr>
+                          <th>
+                            <input class="form-check-input" type="checkbox">
+                          </th>
+                          <th>Customers</th>
+                          <th>Email</th>
+                          <th>Orders</th>
+                          <th>Total Spent</th>
+                          <th>Location</th>
+                          <th>Last Seen</th>
+                          <th>Last Order</th>
+                        </tr>
+                    </thead>
                    <tbody>
                      <tr>
                        <td>
@@ -170,7 +170,7 @@
                        <td>24 min ago</td>
                        <td>Nov 12, 10:45 PM</td>
                      </tr>
-                     <tr>
+                     <!-- <tr>
                       <td>
                         <input class="form-check-input" type="checkbox">
                       </td>
@@ -358,7 +358,7 @@
                       <td>England</td>
                       <td>24 min ago</td>
                       <td>Nov 12, 10:45 PM</td>
-                    </tr>
+                    </tr> -->
 
                     
                     
