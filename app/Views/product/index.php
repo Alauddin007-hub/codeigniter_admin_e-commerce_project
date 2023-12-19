@@ -116,8 +116,8 @@
 										<td><?= $item['product_view']?></td>
 										<td><?= $item['publication_status']?></td>
 										<td>
-											<a class="btn btn-secondary" href="<?php //echo base_url('products/edit/' . $product['id']); ?>"><i class="fa fa-fas-edit">Edit</i></a>
-											 <a class="btn btn-danger" href="<?php //echo base_url('products/delete/' . $product['id']); ?>"><i class="fa fa-fas-trash">Delete</i></a>
+											<a class="btn btn-secondary" href="<?php //echo base_url('products/edit/' . $product['id']); ?>"><i class="bi bi-pencil-square"></i></a>
+											 <a class="btn btn-danger" href="<?php //echo base_url('products/delete/' . $product['id']); ?>"><i class="bi bi-trash-fill"></i></a>
 										</td>
 									</tr>
 									<?php $n++; endforeach; ?>

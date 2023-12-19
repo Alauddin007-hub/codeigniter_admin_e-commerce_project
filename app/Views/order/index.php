@@ -149,6 +149,7 @@
                     </tr>
                    </thead>
                    <tbody>
+                    <?php foreach($orders as $order): ?>
                      <tr>
                        <td>
                          <input class="form-check-input" type="checkbox">
@@ -170,7 +171,8 @@
                        <td>Cash on delivery</td>
                        <td>Nov 12, 10:45 PM</td>
                      </tr>
-                     <tr>
+                      <?php endforeach; ?>
+                     <!-- <tr>
                       <td>
                         <input class="form-check-input" type="checkbox">
                       </td>
@@ -295,7 +297,7 @@
                       <td><span class="lable-table bg-danger-subtle text-danger rounded border border-danger-subtle font-text2 fw-bold">Failed<i class="bi bi-x-lg ms-2"></i></span></td>
                       <td>Cash on delivery</td>
                       <td>Nov 12, 10:45 PM</td>
-                    </tr>
+                    </tr> -->
 
                     
                    </tbody>

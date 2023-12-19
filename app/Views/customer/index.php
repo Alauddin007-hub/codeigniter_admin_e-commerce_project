@@ -135,232 +135,59 @@
               <div class="table-responsive white-space-nowrap">
                  <table class="table align-middle">
                     <thead class="table-light">
+                      
+
+	<!-- customer_id 	customer_name 	customer_email 	customer_password 	customer_address 	customer_city 	customer_zipcode 	customer_phone 	customer_country 	customer_active -->
+	
                         <tr>
                           <th>
                             <input class="form-check-input" type="checkbox">
                           </th>
+                          <th>Customer_id</th>
                           <th>Customers</th>
-                          <th>Email</th>
-                          <th>Orders</th>
-                          <th>Total Spent</th>
-                          <th>Location</th>
-                          <th>Last Seen</th>
-                          <th>Last Order</th>
+                          <th>Customer_email</th>
+                          <th>Customer_address</th>
+                          <th>Customer_city</th>
+                          <th>Customer_zipcode</th>
+                          <th>Customer_phone</th>
+                          <th>Customer_country</th>
+                          <th>Customer_active</th>
                         </tr>
                     </thead>
                    <tbody>
+                    <?php 
+                    foreach($items as $item):
+                    
+                    ?>
                      <tr>
                        <td>
                          <input class="form-check-input" type="checkbox">
                        </td>
+                       <td><?= $item['customer_id'] ?></td>
                        <td>
                         <a class="d-flex align-items-center gap-3" href="javascript:;">
                           <div class="customer-pic">
                             <img src="assets/images/avatars/01.png" class="rounded-circle" width="40" height="40" alt="">
                           </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
+                          <p class="mb-0 customer-name fw-bold"><?= $item['customer_name'] ?></p>
                         </a>
                        </td>
                        <td>
-                          <a href="javascript:;" class="font-text1">abc@example.com</a>
+                          <a href="javascript:;" class="font-text1"><?= $item['customer_email'] ?></a>
                        </td>
-                       <td>142</td>
-                       <td>$2485</td>
-                       <td>England</td>
-                       <td>24 min ago</td>
-                       <td>Nov 12, 10:45 PM</td>
+                       <td><?= $item['customer_address'] ?></td>
+                       <td><?= $item['customer_city'] ?></td>
+                       <td><?= $item['customer_zipcode'] ?></td>
+                       <td><?= $item['customer_phone'] ?></td>
+                       <td><?= $item['customer_country'] ?></td>
+                       <td><?= $item['customer_active'] ?></td>
+                       
                      </tr>
-                     <!-- <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/02.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/03.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/04.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/05.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/06.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/07.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/08.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/09.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input class="form-check-input" type="checkbox">
-                      </td>
-                      <td>
-                        <a class="d-flex align-items-center gap-3" href="javascript:;">
-                          <div class="customer-pic">
-                            <img src="assets/images/avatars/10.png" class="rounded-circle" width="40" height="40" alt="">
-                          </div>
-                          <p class="mb-0 customer-name fw-bold">Andrew Carry</p>
-                        </a>
-                       </td>
-                      <td>
-                         <a href="javascript:;" class="font-text1">abc@example.com</a>
-                      </td>
-                      <td>142</td>
-                      <td>$2485</td>
-                      <td>England</td>
-                      <td>24 min ago</td>
-                      <td>Nov 12, 10:45 PM</td>
-                    </tr> -->
-
-                    
+                     <?php 
+                     endforeach;
+                     
+                     ?>
+                                    
                     
                    </tbody>
                  </table>
