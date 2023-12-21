@@ -77,45 +77,46 @@
 								<h5 class="mb-0">Product Entry Form</h5>
 							</div>
 							<div class="card-body p-4">
-								<form class="row g-3 needs-validation" action="<?//= site_url('/product/update/' . $product_id) ?>" enctype="multipart/form-data" method="post" novalidate>
+								<form class="row g-3 needs-validation" action="<?= site_url('/product/update/' . $product['product_id']) ?>" enctype="multipart/form-data" method="post" novalidate>
 									<div class="col-md-12">
 										<label for="bsValidation1" class="form-label">Product Title</label>
-										<input type="text" class="form-control" id="bsValidation1" placeholder="Product Title" name="pname" value="<?//= $product; ?>" required>
+										<input type="text" class="form-control" id="bsValidation1" placeholder="Product Title" name="pname" value="<?= $product['product_title']; ?>" required>
 										<div class="valid-feedback">
 											Looks good!
 										  </div>
 									</div>
 									<div class="col-md-12">
 										<label for="bsValidation13" class="form-label">Product Short Description</label>
-										<textarea class="form-control" id="bsValidation13" placeholder="Product Short Description ..." name="psd" rows="3" value="<?//= $product; ?>" required></textarea>
+										<textarea class="form-control" id="bsValidation13" placeholder="Product Short Description ..." name="psd" rows="3" value="" required><?= $product['product_short_description']; ?></textarea>
 										<div class="invalid-feedback">
 											Please enter a valid address.
 										</div>
 									</div>
 									<div class="col-md-12">
 										<label for="bsValidation13" class="form-label">Product Long Description</label>
-										<textarea class="form-control" id="bsValidation13" placeholder="Product Long Description ..." name="pld" rows="3" value="<?//= $product; ?>" required></textarea>
+										<textarea class="form-control" id="bsValidation13" placeholder="Product Long Description ..." name="pld" rows="3" value="" required><?= $product['product_long_description']; ?></textarea>
 										<div class="invalid-feedback">
 											Please enter a valid address.
 										</div>
 									</div>
 									<div class="col-md-12">
 										<label for="bsValidation2" class="form-label">Product Image</label>
-										<input type="file" class="form-control" id="bsValidation2" placeholder="product image" value="" name="pimg" value="<?//= $product; ?>" required>
+										<input type="file" class="form-control" id="bsValidation2" placeholder="product image" value="" name="pimg" value="" required>
+										<img src="<?php echo base_url('/assets/uploads/'.$product['product_image'])?>" width="80px" height="70px" alt="">
 										<div class="valid-feedback">
 											Looks good!
 										  </div>
 									</div>
 									<div class="col-md-12">
 										<label for="bsValidation3" class="form-label">Product Price</label>
-										<input type="text" class="form-control" id="bsValidation3" placeholder="product_price" name="pprice" value="<?//= $product; ?>" required>
+										<input type="text" class="form-control" id="bsValidation3" placeholder="product_price" name="pprice" value="<?= $product['product_price']; ?>" required>
 										<div class="invalid-feedback">
 											Please choose a username.
 										  </div>
 									</div>
 									<div class="col-md-12">
 										<label for="bsValidation4" class="form-label">Product Quantity</label>
-										<input type="text" class="form-control" id="bsValidation4" placeholder="product quantity" name="pquantity" value="<?//= $product; ?>" required>
+										<input type="text" class="form-control" id="bsValidation4" placeholder="product quantity" name="pquantity" value="<?= $product['product_quantity']; ?>" required>
 										<div class="invalid-feedback">
 											Please provide a valid email.
 										  </div>
@@ -127,7 +128,7 @@
 											<?php //print_r($cats); ?>
 											<?php foreach( $cats as $cat ): ?>
 
-												<option value="<?= $cat['id'] ?>" ><?= $cat['category_name'] ?></option>
+												<option value="<?= $cat['id'] ?>" <?= ($cat['id']==$product['product_category'] )? 'selected': ''; ?> ><?= $cat['category_name'] ?></option>
 
 											<?php endforeach; ?>
 										</select>
@@ -142,7 +143,7 @@
 											<?php //print_r($bans) ?>
 											<?php foreach( $bans as $ban ): ?>
 
-											<option value="<?= $ban['brand_id'] ?>" ><?= $ban['brand_name'] ?></option>
+											<option value="<?= $ban['brand_id'] ?>" <?= ($ban['brand_id']==$product['product_brand'] )? 'selected': ''; ?> ><?= $ban['brand_name'] ?></option>
 
 											<?php endforeach; ?>
 											

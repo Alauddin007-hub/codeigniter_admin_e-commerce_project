@@ -35,3 +35,10 @@ $routes->get('order/details', 'Order::details');
 //Stock
 $routes->get('stock', 'Stock::index');
 
+// Authentication
+$routes->get('signup', 'SignupController::index');
+$routes->match(['get', 'post'], 'signup/store', 'SignupController::store');
+$routes->get('signin', 'SigninController::index');
+$routes->post('login', 'SigninController::login');
+$routes->get('signout', 'SigninController::logout');
+

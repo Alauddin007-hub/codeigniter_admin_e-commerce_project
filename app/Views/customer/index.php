@@ -144,14 +144,14 @@
                             <input class="form-check-input" type="checkbox">
                           </th>
                           <th>Customer_id</th>
-                          <th>Customers</th>
-                          <th>Customer_email</th>
-                          <th>Customer_address</th>
-                          <th>Customer_city</th>
-                          <th>Customer_zipcode</th>
-                          <th>Customer_phone</th>
-                          <th>Customer_country</th>
-                          <th>Customer_active</th>
+                          <th>Customer Name</th>
+                          <th>Customer Email</th>
+                          <th>Customer Address</th>
+                          <th>Customer City</th>
+                          <th>Customer Zipcode</th>
+                          <th>Customer Phone</th>
+                          <th>Customer Country</th>
+                          <th>Customer Active</th>
                         </tr>
                     </thead>
                    <tbody>

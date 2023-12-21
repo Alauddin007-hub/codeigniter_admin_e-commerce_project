@@ -87,16 +87,16 @@
 								<thead>
 									<tr>
 										<th>#sl</th>
-										<th>product_image</th>
-										<th>product_title</th>
-										<th>product_category</th>
-										<th>product_brand </th>
-										<th>product_quantity</th>
-										<th>product_price</th>
-										<th>product_author</th>
-										<th>published_date</th>
-										<th>product_view</th>
-										<th>publication_status</th>
+										<th>product Image</th>
+										<th>product Title</th>
+										<th>product Category</th>
+										<th>product Brand </th>
+										<th>product Quantity</th>
+										<th>product Price</th>
+										<th>product Author</th>
+										<th>published Date</th>
+										<th>product View</th>
+										<th>publication Status</th>
 										<th>Action</th>
 									</tr>
 									<!-- product_id  product_short_description 	product_long_description product_feature -->
@@ -116,8 +116,8 @@
 										<td><?= $item['product_view']?></td>
 										<td><?= $item['publication_status']?></td>
 										<td>
-											<a class="btn btn-secondary" href="<?php //echo base_url('products/edit/' . $product['id']); ?>"><i class="bi bi-pencil-square"></i></a>
-											 <a class="btn btn-danger" href="<?php //echo base_url('products/delete/' . $product['id']); ?>"><i class="bi bi-trash-fill"></i></a>
+											<a class="btn btn-secondary" href="<?php echo base_url('product/edit/' . $item['product_id']); ?>"><i class="bi bi-pencil-square"></i></a>
+											 <a class="btn btn-danger" href="<?php echo base_url('product/delete/' . $item['product_id']); ?>"><i class="bi bi-trash-fill"></i></a>
 										</td>
 									</tr>
 									<?php $n++; endforeach; ?>
@@ -125,16 +125,16 @@
 								<tfoot>
 									<tr>
 										<th>#sl</th>
-										<th>product_image</th>
-										<th>product_title</th>
-										<th>product_category</th>
-										<th>product_brand </th>
-										<th>product_quantity</th>
-										<th>product_price</th>
-										<th>product_author</th>
-										<th>published_date</th>
-										<th>product_view</th>
-										<th>publication_status</th>
+										<th>product Image</th>
+										<th>product Title</th>
+										<th>product Category</th>
+										<th>product Brand </th>
+										<th>product Quantity</th>
+										<th>product Price</th>
+										<th>product Author</th>
+										<th>published Date</th>
+										<th>product View</th>
+										<th>publication Status</th>
 										<th>Action</th>
 									</tr>
 								</tfoot>
