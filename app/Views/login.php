@@ -56,19 +56,19 @@
                 if(session()->getFlashData()): 
             ?>
 
-                <div class="alert alert-danger"><?= session()->getFlashData('Success');?></div>
+                <div class="alert alert-success"><?= session()->getFlashData('Success');?></div>
                  
             <?php endif; ?>
           <div class="form-body mt-4">
-            <form class="row g-3">
+            <form class="row g-3" method="post" action="<?= site_url('/login') ?>">
               <div class="col-12">
                 <label for="inputEmailAddress" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmailAddress" placeholder="jhon@example.com">
+                <input type="email" class="form-control" id="inputEmailAddress" placeholder="jhon@example.com" name="email">
               </div>
               <div class="col-12">
                 <label for="inputChoosePassword" class="form-label">Password</label>
                 <div class="input-group" id="show_hide_password">
-                  <input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678"
+                  <input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678" name="pass"
                     placeholder="Enter Password">
                   <a href="javascript:;" class="input-group-text bg-transparent"><i
                       class="bi bi-eye-slash-fill"></i></a>

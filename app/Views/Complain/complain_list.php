@@ -102,25 +102,25 @@
 									<!-- product_id  product_short_description 	product_long_description product_feature -->
 								</thead>
 								<tbody>
-									<?php $n = 0; foreach($items as $item): ?>
+									<?php //$n = 0; foreach($items as $item): ?>
 									<tr>
-										<td><?= $n+1; ?></td>
+										<td><?//= $n+1; ?></td>
 										<td><img src="<?php echo base_url('/assets/uploads/'.$item['product_image'])?>" width="60px" height="50px" alt=""></td>
-										<td><?= $item['product_title']?></td>
-										<td><?= $item['category_name']?></td>
-										<td><?= $item['brand_name']?></td>
-										<td><?= $item['product_quantity']?></td>
-										<td><?= $item['product_price']?></td>
-										<td><?= $item['product_author']?></td>
-										<td><?= $item['published_date']?></td>
-										<td><?= $item['product_view']?></td>
-										<td><?= $item['publication_status']?></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
 										<td>
 											<a class="btn btn-secondary" href="<?php echo base_url('product/edit/' . $item['product_id']); ?>"><i class="bi bi-pencil-square"></i></a>
 											 <a class="btn btn-danger" href="<?php echo base_url('product/delete/' . $item['product_id']); ?>"><i class="bi bi-trash-fill"></i></a>
 										</td>
 									</tr>
-									<?php $n++; endforeach; ?>
+									<?php //$n++; endforeach; ?>
 								</tbody>
 								<tfoot>
 									<tr>

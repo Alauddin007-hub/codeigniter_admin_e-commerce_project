@@ -198,33 +198,13 @@
                   <a class="has-arrow" href="javascript:;">
                     <div class="parent-icon"><span class="material-symbols-outlined">warning</span>
                     </div>
-                    <div class="menu-title">Errors</div>
+                    <div class="menu-title">Complain</div>
                   </a>
                   <ul>
-                    <li> <a href="pages-error-403.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>403 Error</a>
-                    </li>
-                    <li> <a href="pages-error-404.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>404 Error</a>
-                    </li>
-                    <li> <a href="pages-error-500.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>500 Error</a>
-                    </li>
-                    <li> <a href="pages-coming-soon.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>Coming Soon</a>
-                    </li>
+                    <li> <a href="pages-error-403.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>Complain List</a>
+                    </li>                    
                   </ul>
-                </li>                
-                <!-- <li class="menu-label">Charts & Maps</li>
-                <li>
-                  <a class="has-arrow" href="javascript:;">
-                    <div class="parent-icon"><span class="material-symbols-outlined">monitoring</span>
-                    </div>
-                    <div class="menu-title">Charts</div>
-                  </a>
-                  <ul>
-                    <li> <a href="charts-apex.html"><span class="material-symbols-outlined">arrow_right</span>Apex</a>
-                    </li>
-                    <li> <a href="charts-chartjs.html"><span class="material-symbols-outlined">arrow_right</span>Chartjs</a>
-                    </li>
-                  </ul>
-                </li> -->
+                </li> 
                 <li>
                   <a class="has-arrow" href="javascript:;">
                     <div class="parent-icon"><span class="material-symbols-outlined">distance</span>
@@ -277,7 +257,7 @@
                 <li>
                   <div class="dropdown-divider mb-0"></div>
                 </li>
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
+                <li><a class="dropdown-item" href="<?= site_url('/signout') ?>"><span class="material-symbols-outlined me-2">
                   logout
                   </span><span>Logout</span></a>
                 </li>

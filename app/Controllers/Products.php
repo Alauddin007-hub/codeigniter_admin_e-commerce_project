@@ -21,6 +21,8 @@ class Products extends BaseController
     }
     public function index()
     {
+        $this->product->join('tbl_category','tbl_category.id = tbl_product.product_category');
+        $this->product->join('tbl_brand','brand_id = tbl_product.product_brand');
         $data['items'] = $this->product->findAll();
         $data['title'] = "Product List";
         return view("product/index",$data);
@@ -29,8 +31,6 @@ class Products extends BaseController
     public function entry()
     {
         $data['title'] = "Product Entry";
-        $this->product->join('category_name','brand_name','category_id = tbl_product.category_id','brand_id = tbl_product.brand_id');
-
         $data['cats'] = $this->category->findAll();
         $data['bans'] = $this->brand->findAll();
 

@@ -76,20 +76,21 @@
               </div>
               <div class="col-12">
                 <label for="inputRepeatPassword" class="form-label">Confirm Password</label>
-                <div class="input-group" id="show_hide_password">
+                <div class="input-group" id="show_hide_password1">
                   <input type="password" class="form-control border-end-0" id="inputRepeatPassword" value="12345678" name="conpass" placeholder="Enter Password"> 
                   <a href="javascript:;" class="input-group-text bg-transparent"><i class="bi bi-eye-slash-fill"></i></a>
                 </div>
               </div>
-              <!-- <div class="col-12">
-                <label for="inputSelectCountry" class="form-label">Country</label>
-                <select class="form-select" id="inputSelectCountry" aria-label="Default select example">
-                  <option selected="">India</option>
-                  <option value="1">United Kingdom</option>
-                  <option value="2">America</option>
-                  <option value="3">Dubai</option>
+              <div class="col-12">
+                <label for="inputSelectCountry" class="form-label">User Role</label>
+                <select class="form-select" id="inputSelectCountry" aria-label="Default select example" name="role">
+                  <option selected="">Status</option>
+                  <option>Admin</option>
+                  <option>Editor</option>
+                  <option>Author</option>
+                  <option>Customer</option>
                 </select>
-              </div> -->
+              </div>
               <div class="col-12">
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
@@ -131,19 +132,20 @@
 
   <script>
     $(document).ready(function () {
-      $("#show_hide_password a").on('click', function (event) {
-        event.preventDefault();
-        if ($('#show_hide_password input').attr("type") == "text") {
-          $('#show_hide_password input').attr('type', 'password');
-          $('#show_hide_password i').addClass("bi-eye-slash-fill");
-          $('#show_hide_password i').removeClass("bi-eye-fill");
-        } else if ($('#show_hide_password input').attr("type") == "password") {
-          $('#show_hide_password input').attr('type', 'text');
-          $('#show_hide_password i').removeClass("bi-eye-slash-fill");
-          $('#show_hide_password i').addClass("bi-eye-fill");
-        }
-      });
-    });
+  $("#show_hide_password a, #show_hide_password1 a").on('click', function (event) {
+    event.preventDefault();
+    if ($('#show_hide_password input').attr("type") == "text") {
+      $('#show_hide_password input').attr('type', 'password');
+      $('#show_hide_password i').addClass("bi-eye-slash-fill");
+      $('#show_hide_password i').removeClass("bi-eye-fill");
+    } else if ($('#show_hide_password input').attr("type") == "password") {
+      $('#show_hide_password input').attr('type', 'text');
+      $('#show_hide_password i').removeClass("bi-eye-slash-fill");
+      $('#show_hide_password i').addClass("bi-eye-fill");
+    }
+  });
+});
+
   </script>
 
 </body>
