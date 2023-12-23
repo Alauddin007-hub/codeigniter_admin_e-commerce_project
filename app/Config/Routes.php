@@ -5,35 +5,35 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::index', ['filter' => 'authGuard']);
 
 
 // Category & Brand
-$routes->get('category', 'CategoryController::index');
-$routes->get('category/create', 'CategoryController::create');
-$routes->post('category/store', 'CategoryController::store');
-$routes->get('brand', 'BrandController::index');
-$routes->get('brand/create', 'BrandController::create');
-$routes->post('brand/store', 'BrandController::store');
+$routes->get('category', 'CategoryController::index', ['filter' => 'authGuard']);
+$routes->get('category/create', 'CategoryController::create', ['filter' => 'authGuard']);
+$routes->post('category/store', 'CategoryController::store', ['filter' => 'authGuard']);
+$routes->get('brand', 'BrandController::index', ['filter' => 'authGuard']);
+$routes->get('brand/create', 'BrandController::create', ['filter' => 'authGuard']);
+$routes->post('brand/store', 'BrandController::store', ['filter' => 'authGuard']);
 
 // Product 
-$routes->get('product', 'Products::index');
-$routes->get('product/entry', 'Products::entry');
-$routes->post('product/store', 'Products::store');
-$routes->get('product/edit/(:num)', 'Products::edit/$1');
-$routes->post('product/update/(:num)', 'Products::update/$1');
-$routes->get('product/delete/(:num)', 'Products::delete/$1');
+$routes->get('product', 'Products::index', ['filter' => 'authGuard']);
+$routes->get('product/entry', 'Products::entry', ['filter' => 'authGuard']);
+$routes->post('product/store', 'Products::store', ['filter' => 'authGuard']);
+$routes->get('product/edit/(:num)', 'Products::edit/$1', ['filter' => 'authGuard']);
+$routes->post('product/update/(:num)', 'Products::update/$1', ['filter' => 'authGuard']);
+$routes->get('product/delete/(:num)', 'Products::delete/$1', ['filter' => 'authGuard']);
 
 // Customer
-$routes->get('customer', 'Customer::index');
-$routes->get('customer/details', 'Customer::customer_details');
+$routes->get('customer', 'Customer::index', ['filter' => 'authGuard']);
+$routes->get('customer/details', 'Customer::customer_details', ['filter' => 'authGuard']);
 
 // Order
-$routes->get('order', 'Order::index');
-$routes->get('order/details', 'Order::details');
+$routes->get('order', 'Order::index', ['filter' => 'authGuard']);
+$routes->get('order/details', 'Order::details', ['filter' => 'authGuard']);
 
 //Stock
-$routes->get('stock', 'Stock::index');
+$routes->get('stock', 'Stock::index', ['filter' => 'authGuard']);
 
 // Authentication
 $routes->get('signup', 'SignupController::index');

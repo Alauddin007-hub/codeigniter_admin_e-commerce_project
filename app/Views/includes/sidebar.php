@@ -103,49 +103,18 @@
                     </li>
                   </ul>
                 </li>
-                
-                
-                <!-- <li>
+               
+                <li>
                   <a class="has-arrow" href="javascript:;">
-                    <div class="parent-icon"><span class="material-symbols-outlined">redeem</span>
+                    <div class="parent-icon"><span class="material-symbols-outlined">warning</span>
                     </div>
-                    <div class="menu-title">Components</div>
+                    <div class="menu-title">Complain</div>
                   </a>
                   <ul>
-                    <li> <a href="component-alerts.html"><span class="material-symbols-outlined">arrow_right</span>Alerts</a>
-                    </li>
-                    <li> <a href="component-accordions.html"><span class="material-symbols-outlined">arrow_right</span>Accordions</a>
-                    </li>
-                    <li> <a href="component-badges.html"><span class="material-symbols-outlined">arrow_right</span>Badges</a>
-                    </li>
-                    <li> <a href="component-buttons.html"><span class="material-symbols-outlined">arrow_right</span>Buttons</a>
-                    </li>
-                    <li> <a href="component-cards.html"><span class="material-symbols-outlined">arrow_right</span>Cards</a>
-                    </li>
-                    <li> <a href="component-lightbox.html"><span class="material-symbols-outlined">arrow_right</span>Lightbox</a>
-                    </li>
-                    <li> <a href="component-carousels.html"><span class="material-symbols-outlined">arrow_right</span>Carousels</a>
-                    </li>
-                    <li> <a href="component-list-groups.html"><span class="material-symbols-outlined">arrow_right</span>List Groups</a>
-                    </li>
-                    <li> <a href="component-media-object.html"><span class="material-symbols-outlined">arrow_right</span>Media Objects</a>
-                    </li>
-                    <li> <a href="component-modals.html"><span class="material-symbols-outlined">arrow_right</span>Modals</a>
-                    </li>
-                    <li> <a href="component-navs-tabs.html"><span class="material-symbols-outlined">arrow_right</span>Navs & Tabs</a>
-                    </li>
-                    <li> <a href="component-paginations.html"><span class="material-symbols-outlined">arrow_right</span>Pagination</a>
-                    </li>
-                    <li> <a href="component-popovers-tooltips.html"><span class="material-symbols-outlined">arrow_right</span>Popovers & Tooltips</a>
-                    </li>
-                    <li> <a href="component-progress-bars.html"><span class="material-symbols-outlined">arrow_right</span>Progress</a>
-                    </li>
-                    <li> <a href="component-spinners.html"><span class="material-symbols-outlined">arrow_right</span>Spinners</a>
-                    </li>
-                    <li> <a href="component-notifications.html"><span class="material-symbols-outlined">arrow_right</span>Notifications</a>
-                    </li>
+                    <li> <a href="pages-error-403.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>Complain List</a>
+                    </li>                    
                   </ul>
-                </li> -->
+                </li> 
                 <li class="menu-label">Pages</li>
                 <li>
                   <a class="has-arrow" href="javascript:;">
@@ -194,17 +163,6 @@
                     <div class="menu-title">Timeline</div>
                   </a>
                 </li>
-                <li>
-                  <a class="has-arrow" href="javascript:;">
-                    <div class="parent-icon"><span class="material-symbols-outlined">warning</span>
-                    </div>
-                    <div class="menu-title">Complain</div>
-                  </a>
-                  <ul>
-                    <li> <a href="pages-error-403.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>Complain List</a>
-                    </li>                    
-                  </ul>
-                </li> 
                 <li>
                   <a class="has-arrow" href="javascript:;">
                     <div class="parent-icon"><span class="material-symbols-outlined">distance</span>

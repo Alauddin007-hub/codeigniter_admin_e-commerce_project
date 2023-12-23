@@ -555,3 +555,28 @@ JOIN `tbl_category` USING (`tbl_brand`)', [], false)
  7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\public\\index.php')
+INFO - 2023-12-23 12:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 12:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 12:58:55 --> "noAuth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 354.
+ 1 SYSTEMPATH\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noAuth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('noAuth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\xampp74\\htdocs\\Condeigniter_wdpf55\\codeigniter_admin_e-commerce_project\\public\\index.php')
+INFO - 2023-12-23 13:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 13:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
