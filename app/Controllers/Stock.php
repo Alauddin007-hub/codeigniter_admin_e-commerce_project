@@ -8,6 +8,7 @@ class Stock extends BaseController
 {
     public function index()
     {
-        return view('Stock/index');
+        $data['title'] = "Store List";
+        return view('Stock/index',$data);
     }
 }

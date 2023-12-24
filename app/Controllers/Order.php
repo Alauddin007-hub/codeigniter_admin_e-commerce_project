@@ -19,7 +19,9 @@ class Order extends BaseController
         return view('order/index', $data);
     }
 
-    public function details(){
-        return view('order/order_details');
+    public function details()
+    {
+        $data['title'] = "Order Details";
+        return view('order/order_details',$data);
     }
 }

@@ -14,11 +14,13 @@ class BrandController extends BaseController
     }
     public function index()
     {
+        $data['title'] = "Brand List";
         $data['brands'] = $this->brand->findAll();
         return view('brand/brandList', $data);
     }
     public function create(){
-        return view('brand/addBrand');
+        $data['title'] = "Brand List";
+        return view('brand/addBrand',$data);
     }
     public function store(){
         $data = [
