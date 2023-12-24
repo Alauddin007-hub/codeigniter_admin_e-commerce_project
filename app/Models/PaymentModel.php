@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ComplainModel extends Model
+class PaymentModel extends Model
 {
-    protected $table            = 'complain';
-    protected $primaryKey       = 'id';
+    protected $table            = 'tbl_payment';
+    protected $primaryKey       = 'payment_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name','email','phone','subject','address','detailes'];
+    protected $allowedFields    = ['payment_type','actions'];
 
     // Dates
     protected $useTimestamps = false;

@@ -1,10 +1,11 @@
 <aside class="sidebar-wrapper">
           <div class="sidebar-header">
             <div class="logo-icon">
-              <img src="assets/images/logo-icon.png" class="logo-img" alt="">
+              <img src="<?= base_url('assets/images/logo-icon.png')?>" class="logo-img" alt="">
             </div>
             <div class="logo-name flex-grow-1">
               <h5 class="mb-0">Fruitkha-Admin</h5>
+              <h5 class="mb-0"><?= session()->name; ?></h5>
             </div>
             <div class="sidebar-close ">
               <span class="material-symbols-outlined">close</span>
@@ -15,7 +16,7 @@
               <!--navigation-->
               <ul class="metismenu" id="menu">
                 <li>
-                  <a href="/">
+                  <a href="<?= base_url('/')?>">
                     <div class="parent-icon"><span class="material-symbols-outlined">home</span>
                     </div>
                     <div class="menu-title">Dashboard</div>
@@ -46,14 +47,14 @@
                 </li>
                 <li class="menu-label">UI Elements</li>
                 <li>
-                  <a href="/category/create" class="has-arrow">
+                  <a href="<?= base_url('/category/create')?>" class="has-arrow">
                       <div class="parent-icon"><span class="material-symbols-outlined">widgets</span>
                       </div>
                       <div class="menu-title">Add Category</div>
                     </a>
                 </li>
                 <li>
-                  <a class="has-arrow" href="/brand/create">
+                  <a class="has-arrow" href="<?= base_url('/brand/create')?>">
                       <div class="parent-icon"><span class="material-symbols-outlined">redeem</span>
                       </div>
                       <div class="menu-title">Add Brand</div>
@@ -66,9 +67,9 @@
                     <div class="menu-title">Products</div>
                   </a>
                   <ul>
-                    <li> <a href="/product"><span class="material-symbols-outlined">arrow_right</span>Product List</a>
+                    <li> <a href="<?= base_url('/product')?>"><span class="material-symbols-outlined">arrow_right</span>Product List</a>
                     </li>
-                    <li> <a href="/product/entry"><span class="material-symbols-outlined">arrow_right</span>Add New Product</a>
+                    <li> <a href="<?= base_url('/product/entry')?>"><span class="material-symbols-outlined">arrow_right</span>Add New Product</a>
                     </li>
                   </ul>
                 </li>
@@ -80,13 +81,13 @@
                   </a>
                   <ul>
                     
-                    <li> <a href="/customer"><span class="material-symbols-outlined">arrow_right</span>Customers</a>
+                    <li> <a href="<?= base_url('/customer')?>"><span class="material-symbols-outlined">arrow_right</span>Customers</a>
                     </li>
-                    <li> <a href="customer/details"><span class="material-symbols-outlined">arrow_right</span>Customer Details</a>
+                    <li> <a href="<?= base_url('customer/details')?>"><span class="material-symbols-outlined">arrow_right</span>Customer Details</a>
                     </li>
-                    <li> <a href="/order"><span class="material-symbols-outlined">arrow_right</span>Orders</a>
+                    <li> <a href="<?= base_url('/order')?>"><span class="material-symbols-outlined">arrow_right</span>Orders</a>
                     </li>
-                    <li> <a href="order/details"><span class="material-symbols-outlined">arrow_right</span>Order Details</a>
+                    <li> <a href="<?= base_url('/order/details')?>"><span class="material-symbols-outlined">arrow_right</span>Order Details</a>
                     </li>
                   </ul>
                 </li>
@@ -97,7 +98,7 @@
                     <div class="menu-title">Manage Stock</div>
                   </a>
                   <ul>
-                  <li> <a href="/stock"><span class="material-symbols-outlined">arrow_right</span>Available Stock</a>
+                  <li> <a href="<?= base_url('/stock')?>"><span class="material-symbols-outlined">arrow_right</span>Available Stock</a>
                     </li>
                     <li> <a href="component-accordions.html"><span class="material-symbols-outlined">arrow_right</span>Re-stock</a>
                     </li>
@@ -111,7 +112,7 @@
                     <div class="menu-title">Complain</div>
                   </a>
                   <ul>
-                    <li> <a href="pages-error-403.html" target="_blank"><span class="material-symbols-outlined">arrow_right</span>Complain List</a>
+                    <li> <a href="<?= base_url('/Complain')?>"><span class="material-symbols-outlined">arrow_right</span>Complain List</a>
                     </li>                    
                   </ul>
                 </li> 
@@ -184,10 +185,10 @@
           <div class="sidebar-bottom dropdown dropup-center dropup">
               <div class="dropdown-toggle d-flex align-items-center px-3 gap-3 w-100 h-100" data-bs-toggle="dropdown">
                 <div class="user-img">
-                   <img src="assets/images/avatars/01.png" alt="">
+                   <img src="<?= base_url('assets/images/avatars/01.png')?>" alt="">
                 </div>
                 <div class="user-info">
-                  <h5 class="mb-0 user-name">MD Alauddin</h5>
+                  <h5 class="mb-0 user-name"><?= session()->name; ?></h5>
                   <p class="mb-0 user-designation">UI Engineer</p>
                 </div>
               </div>

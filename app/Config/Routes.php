@@ -35,6 +35,9 @@ $routes->get('order/details', 'Order::details', ['filter' => 'authGuard']);
 //Stock
 $routes->get('stock', 'Stock::index', ['filter' => 'authGuard']);
 
+// Complain
+$routes->get('Complain', 'ComplainController::index', ['filter' => 'authGuard']);
+
 // Authentication
 $routes->get('signup', 'SignupController::index');
 $routes->match(['get', 'post'], 'signup/store', 'SignupController::store');

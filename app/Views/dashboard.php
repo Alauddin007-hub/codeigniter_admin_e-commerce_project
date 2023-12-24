@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roksyn - Bootstrap 5 Admin Template</title>
+    <title><?php echo $title; ?></title>
 
     <!--plugins-->
     <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" >
@@ -47,7 +47,7 @@
               <div class="d-flex align-items-center">
                 <div class="">
                   <p class="mb-1">Total Orders</p>
-                  <h4 class="mb-0 text-primary">248</h4>
+                  <h4 class="mb-0 text-primary"><?= $totalorder ?></h4>
                 </div>
                 <div class="ms-auto widget-icon bg-primary text-white">
                   <i class="bi bi-basket2-fill"></i>
@@ -60,6 +60,42 @@
           </div>
          </div>
          <div class="col">
+          <div class="card radius-10 border-0 border-start border-secondary border-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="">
+                  <p class="mb-1">Total Brand</p>
+                  <h4 class="mb-0 text-primary"><?= $totalbrand ?></h4>
+                </div>
+                <div class="ms-auto widget-icon bg-secondary text-white">
+                  <i class="bi bi-bookmarks-fill"></i>
+                </div>
+              </div>
+              <div class="progress mt-3" style="height: 4.5px;">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col">
+          <div class="card radius-10 border-0 border-start border-info border-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="">
+                  <p class="mb-1">Total Category</p>
+                  <h4 class="mb-0 text-primary"><?= $totalcategory ?></h4>
+                </div>
+                <div class="ms-auto widget-icon bg-info text-white">
+                  <i class="bi bi-nvidia"></i>
+                </div>
+              </div>
+              <div class="progress mt-3" style="height: 4.5px;">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- <div class="col">
           <div class="card radius-10 border-0 border-start border-success border-4">
             <div class="card-body">
               <div class="d-flex align-items-center">
@@ -76,8 +112,26 @@
               </div>
             </div>
           </div>
-         </div>
+         </div> -->
          <div class="col">
+          <div class="card radius-10 border-0 border-start border-success border-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="">
+                  <p class="mb-1">Total Product</p>
+                  <h4 class="mb-0 text-success"><?= $totalproduct ?></h4>
+                </div>
+                <div class="ms-auto widget-icon bg-success text-white">
+                <i class="bi bi-backpack4"></i>
+                </div>
+              </div>
+              <div class="progress mt-3" style="height: 4.5px;">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- <div class="col">
           <div class="card radius-10 border-0 border-start border-danger border-4">
             <div class="card-body">
               <div class="d-flex align-items-center">
@@ -94,6 +148,24 @@
               </div>
             </div>
           </div>
+         </div> -->
+         <div class="col">
+          <div class="card radius-10 border-0 border-start border-danger border-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="">
+                  <p class="mb-1">Total Customer</p>
+                  <h4 class="mb-0 text-danger"><?= $totalcustomer ?></h4>
+                </div>
+                <div class="ms-auto widget-icon bg-danger text-white">
+                  <i class="bi bi-person-check"></i>
+                </div>
+              </div>
+              <div class="progress mt-3" style="height: 4.5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
          </div>
          <div class="col">
           <div class="card radius-10 border-0 border-start border-warning border-4">
@@ -101,7 +173,7 @@
               <div class="d-flex align-items-center">
                 <div class="">
                   <p class="mb-1">New Users</p>
-                  <h4 class="mb-0 text-warning">214</h4>
+                  <h4 class="mb-0 text-warning"><?= $totaluser?></h4>
                 </div>
                 <div class="ms-auto widget-icon bg-warning text-dark">
                   <i class="bi bi-people-fill"></i>

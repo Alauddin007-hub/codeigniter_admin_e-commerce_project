@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ComplainModel extends Model
+class WishlistModel extends Model
 {
-    protected $table            = 'complain';
+    protected $table            = 'wishlist';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name','email','phone','subject','address','detailes'];
+    protected $allowedFields    = ['product_name', 'color', 'size','quantity', 'price', 'total'];
 
     // Dates
     protected $useTimestamps = false;

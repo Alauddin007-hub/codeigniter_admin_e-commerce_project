@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roksyn - Bootstrap 5 Admin Template</title>
+    <title><?php echo $title; ?></title>
 
 <!--plugins-->
 <link href="<?= site_url('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css')?>" rel="stylesheet">
@@ -167,7 +167,7 @@
                        <td>
                         <a class="d-flex align-items-center gap-3" href="javascript:;">
                           <div class="customer-pic">
-                            <img src="assets/images/avatars/01.png" class="rounded-circle" width="40" height="40" alt="">
+                            <img src="<?= base_url('assets/images/avatars/01.png')?>" class="rounded-circle" width="40" height="40" alt="">
                           </div>
                           <p class="mb-0 customer-name fw-bold"><?= $item['customer_name'] ?></p>
                         </a>

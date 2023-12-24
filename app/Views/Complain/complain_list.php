@@ -74,12 +74,12 @@
        
 				<h6 class="mb-0 text-uppercase">DataTable Import</h6>
 				<hr>
-				<?php //if (session()->getFlashdata('msg')) : ?>
-                            <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                <?php //echo session()->getFlashdata('msg'); ?>
+				<?php if (session()->getFlashdata('msg')) : ?>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <?php echo session()->getFlashdata('msg'); ?>
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            </div> -->
-                		<?php //endif; ?>
+                            </div>
+                		<?php endif; ?>
 				<div class="card">
 					<div class="card-body">
 						<div class="table-responsive">
@@ -88,53 +88,47 @@
 									<tr>
 										<th>#sl</th>
 										<th>product Image</th>
-										<th>product Title</th>
-										<th>product Category</th>
-										<th>product Brand </th>
-										<th>product Quantity</th>
-										<th>product Price</th>
-										<th>product Author</th>
-										<th>published Date</th>
-										<th>product View</th>
-										<th>publication Status</th>
+										<th>Customer Name</th>
+										<th>Email</th>
+										<th>Phone</th>
+										<th>Subject</th>
+										<th>Address</th>
+										<th>Details</th>
+										<th>Create At</th>
 										<th>Action</th>
 									</tr>
-									<!-- product_id  product_short_description 	product_long_description product_feature -->
+									
 								</thead>
 								<tbody>
-									<?php //$n = 0; foreach($items as $item): ?>
+									<?php $n = 0; foreach($items as $item): ?>
 									<tr>
-										<td><?//= $n+1; ?></td>
-										<td><img src="<?php echo base_url('/assets/uploads/'.$item['product_image'])?>" width="60px" height="50px" alt=""></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
+										<td><?= $n+1; ?></td>
+										<td><img src="<?php //echo base_url('/assets/uploads/'.$item[''])?>" width="60px" height="50px" alt=""></td>
+										<td><?= $item['name'] ?></td>
+										<td><?= $item['email'] ?></td>
+										<td><?= $item['phone'] ?></td>
+										<td><?= $item['subject'] ?></td>
+										<td><?= $item['address'] ?></td>
+										<td><?= $item['detailes'] ?></td>
+										<td><?= $item['create_at'] ?></td>
 										<td>
-											<a class="btn btn-secondary" href="<?php echo base_url('product/edit/' . $item['product_id']); ?>"><i class="bi bi-pencil-square"></i></a>
-											 <a class="btn btn-danger" href="<?php echo base_url('product/delete/' . $item['product_id']); ?>"><i class="bi bi-trash-fill"></i></a>
+											<a class="btn btn-secondary" href="<?php //echo base_url('product/edit/' . $item['product_id']); ?>"><i class="bi bi-pencil-square"></i></a>
+											 <a class="btn btn-danger" href="<?php //echo base_url('product/delete/' . $item['product_id']); ?>"><i class="bi bi-trash-fill"></i></a>
 										</td>
 									</tr>
-									<?php //$n++; endforeach; ?>
+									<?php $n++; endforeach; ?>
 								</tbody>
 								<tfoot>
 									<tr>
-										<th>#sl</th>
+									<th>#sl</th>
 										<th>product Image</th>
-										<th>product Title</th>
-										<th>product Category</th>
-										<th>product Brand </th>
-										<th>product Quantity</th>
-										<th>product Price</th>
-										<th>product Author</th>
-										<th>published Date</th>
-										<th>product View</th>
-										<th>publication Status</th>
+										<th>Customer Name</th>
+										<th>Email</th>
+										<th>Phone</th>
+										<th>Subject</th>
+										<th>Address</th>
+										<th>Details</th>
+										<th>Create At</th>
 										<th>Action</th>
 									</tr>
 								</tfoot>
